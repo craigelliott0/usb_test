@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scale App</title>
+</head>
+<body>
+    <h1>He ain't heavy, he's my vinyl:</h1>
+    <form action="{{ url_for('home') }}" method='POST'>
+        <input type="text" id="weight_input" placeholder="0" value="{{ weight }}">
+        <button type="submit">Add weight</button>
+    </form>
+
+</body>
+</html>
